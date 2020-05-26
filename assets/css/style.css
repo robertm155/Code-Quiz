@@ -1,0 +1,115 @@
+body {
+    background-color: #4136a7;
+    color: #40d15f;
+    text-align: left;
+}
+p {
+    margin: auto;
+}
+h1 {
+    font-size: 200%;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 150%;
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 120%;
+    border-bottom: 2px solid #40d15f;
+}
+ol{
+    margin-left: 45%;
+    margin-right: 50%;
+}
+li {
+    background-color: #4136a7;
+    padding: 2px;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    text-align: center;
+    width: 75px;
+}
+
+.startPage{
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.questionsPage{
+    display: none;
+    width: 50%;
+    margin: auto;
+}
+
+.resultsPage{
+    display: none;
+    width: 50%;
+    margin: auto;
+}
+
+.scoreboard{
+    display: none;
+    width: 50%;
+    margin: auto;
+}
+#countdown{
+    float: left;
+    border-style: solid;
+    border-color: #40d15f;
+    border-width: 3px;
+    padding: 5px;
+    margin-left: 40%;
+    margin-top: 10px;
+}
+#score{
+    float: right;
+    border-style: solid;
+    border-color: #40d15f;
+    border-width: 3px;
+    padding: 5px;
+    margin-right: 40%;
+    margin-top: 10px;
+}
+#start{
+    color: #ffffff;
+    background-color: #4136a7;
+    border-color: #40d15f;
+    border-width: 3px;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#a4{
+    margin-bottom: 20px;
+}
+p.resultsPage{
+    margin-bottom: 10px;
+}
+form{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+input{
+    border-color: #40d15f;
+    background-color: #4136a7;
+    color: #40d15f;
+}
+p.scoreboard {
+    border-bottom: 2px solid #40d15f;
+}
+#restart{
+    display: none;
+    margin: auto;
+    margin-top: 10px;
+}
+
+@media all and (max-width: 1425px) {
+    #score{
+        margin-right: initial;
+    }
+    #countdown{
+        margin-left: initial;
+    }
+}

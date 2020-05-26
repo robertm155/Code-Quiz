@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="startPage">
+        <h1>Pop Quiz</h1>
+        <p>Try to answer to following questions within the alloted time. Everytime a question is answered incorrectly, ten seconds will be deducted from your remaining time.</p>
+        <button type="button" id='start' onclick="startTimer()" > I'm Ready! </button>
+    </div>
+
+    <div class="questionsPage">
+
+        <h2 id='question'>The condition in an if/else statement is enclosed within ____.</h2>
+        <ol>
+            <li id='ans1' onclick="correct()"> A. Quotes </li>
+            <li id='ans2' onclick="wrong()"> B. Curly Brackets </li>
+            <li id='ans3' onclick="wrong()"> C. Parenthesis </li>
+            <li id='ans4' onclick="wrong()"> D. Square Brackets </li>
+        </ol>
+        <p id='score'>Score: 0</p>
+        <p id="countdown"></div> 
+    </div>
+
+    <div class="resultsPage">
+        <h1 id='complete'>Time's Up!</h1>
+        <p>Final score:</p>
+        <p id='finalScore'></p>
+        <form>
+            Initials:
+            <input id="scoreInitials" type="text" value="">
+            <input id="submitScore" type="submit">
+        </form>
+    </div>
+    <div class="scoreboard">
+        <h3>Scoreboard</h3>  
+    </div>
+    <input id="restart" type="submit" value="Restart">
+
+
+<script src="script.js"></script>
+</body>
+</html>
